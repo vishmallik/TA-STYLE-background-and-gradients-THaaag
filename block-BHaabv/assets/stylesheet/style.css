@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*custom styles*/
+
+body{
+    background-color: #1d2029;
+    font-family: "Roboto",sans-serif;
+    color: #fff;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.headerpara{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 600;
+    margin-right: 20px;
+}
+.toggle{
+    height: 35px;
+    width: 70px;
+    border-radius: 25%/50%;
+    background:linear-gradient(to right,#4f83b0 ,#56cd9c);
+}
+.togglecircle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color:#1d2029;
+    margin: 5px;
+}
+.tile{
+    width:23%;
+    background-color: #252b43;
+    border-radius: 1.5%;
+    border-top: 5px solid #298ae0;
+   text-align: center;
+}
+.yt{
+    border-top: 5px solid #d10f46;
+}
+.twitter{
+    border-top: 5px solid #2b9de0;
+}
+.ig{
+    background: 
+    linear-gradient(#252b43, #252b43) padding-box,
+    linear-gradient(to right, #f1c081, #cf5496) border-box;
+    border-top: 5px solid transparent;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 20px 20px;
+}
+.username{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+}
+.fa-brands{
+    font-size: 30px;
+    color: #298ae0;
+}
+.fa-youtube{
+    color: #d10f46;
+}
+.fa-twitter{
+    color:#2b9de0;
+}
+.fa-instagram{
+    background: -webkit-gradient(linear, left bottom, right top, from(#f1c081), to(#cf5496));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.followers-count{
+    font-family: "Poppins",sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 30px 0 10px 0;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    color: #48be58;
+    margin: 35px 0;
+}
+.down{
+    color: #d10f46;
+}
+.fa-caret-up,.fa-caret-down{
+    margin-right: 5px;
+}
+.updown-counter{
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+}
+.followers{
+    letter-spacing: 6px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.tile2{
+    width:23%;
+    background-color: #252b43;
+    border-radius: 1.5%;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+.s2child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px 0 20px;
+}
+.views{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+}
+.tile-heading{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
